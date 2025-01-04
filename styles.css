@@ -11,3 +11,136 @@
     background-color: aqua;
     padding: 20px ;
 }
+
+.header-button{
+    background-color: white;
+    color: blue; /* Blue text for the button */
+    border: 2px solid aqua; /* Blue border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-holder{
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+    padding-top: 40px;
+    padding-left: 8px;
+}
+
+
+.Section-2 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .lightbox-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the items */
+    margin-top: 20px;
+  }
+  
+  .lightbox-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px; /* Adjust as needed */
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue; /* Adjust the border color */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .lightbox-item p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray; /* Subtext color */
+    text-align: center;
+  }
+  
+  .Section-3 {
+    background-color: #f0f1f4; /* Light gray background */
+    padding: 40px; /* Add padding to the section */
+    text-align: center;
+  }
+  
+  .textbox {
+    max-width: 600px; /* Limit the width of the textbox */
+    margin: 0 auto; /* Center align the textbox */
+    font-family: 'Arial', sans-serif; /* Ensure a clean font */
+    color: #5a5a5a; /* Neutral gray text color */
+  }
+  
+  .textbox p {
+    font-size: 18px;
+    font-style: italic; /* Italicize the quote */
+    line-height: 1.6; /* Add spacing between lines */
+    margin-bottom: 20px;
+  }
+  
+  .textbox h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Darker color for the author name */
+    text-align: right;
+  }
+  
+.section-4{
+    background-color: #dce4ff;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.cta-container{
+    background-color: blue;
+    display: flex;
+    padding: 20px;
+    max-width: 800px;
+    
+}
+
+.cta-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cta-text{
+    margin-right: 40px;
+}
+
+.cta-text h3{
+    margin: 0;
+    font-size: 18px
+}
+
+.cta-text p{
+    margin: 0;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.cta-button {
+    background-color: white;
+    color: blue; /* Blue text for the button */
+    border: 2px solid blue; /* Blue border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
