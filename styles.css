@@ -1,83 +1,62 @@
+*{
+    a{
+        color: white;
+    }
+border: 0px;
+}
 
-.navigation-container{
-    display: flex;
-    padding: 20px;
-
+.nav-bar{
     background-color: #1a202c;
-    justify-content: space-between;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.hero-section{
+    background-color: #1a202c;
+    padding: 80px;
+    color: white;
+}
+
+.image-holder{
+    background-color: grey;
+    max-width: 400px;
+    padding: 80px;
+
+}
+
+.header-button{
+
+    padding: 8px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.hero-container{
+    display:flex
+
+}
+
+.hero-content p{
+    max-width: 800px;
+    line-height: 20px;
+    padding-right: 20px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav-links{
     color: white;
     
 }
 
-
-/* Hero Section */
-.hero-section {
-    background-color: #1a202c; /* Dark background */
-    color: white; /* White text */
-    padding: 50px; /* Add padding around the section */
-    display: flex; /* Flexbox for row layout */
-    justify-content: center; /* Center the container horizontally */
-    align-items: center; /* Center the container vertically */
-  }
-  
-  .hero-container {
-    display: flex; /* Flexbox for row layout */
-    justify-content: space-between; /* Space between text and image */
-    align-items: center; /* Align items vertically */
-    max-width: 1200px; /* Limit the width */
-    width: 100%;
-  }
-  
-  .hero-content {
-    max-width: 600px; /* Limit the width of the text */
-  }
-  
-  .hero-content h1 {
-    font-size: 48px; /* Large heading font size */
-    margin: 0;
-  }
-  
-  .hero-content p {
-    font-size: 16px; /* Smaller font size for subtext */
-    color: #a0aec0; /* Subtle gray color for contrast */
-    margin: 20px 0;
-  }
-  
-  .hero-content .header-button {
-    background-color: #007bff; /* Blue button background */
-    color: white; /* White text */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .hero-content .header-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-  
-  .image-holder {
-    max-width: 1200px; /* Limit the width of the image */
-    background-color: #4a5568; /* Gray placeholder color */
-    color: white; /* White text for the placeholder */
-    display: flex;
-    justify-content: center; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
-    height: 300px; /* Fixed height */
-    border-radius: 10px; /* Rounded corners */
+.section-2 {
     text-align: center;
-  }
-  
-
-
-
-
-.Section-2 {
-    text-align: center;
-    margin: 20px;
+    margin: 80px;
   }
   
   .lightbox-container {
